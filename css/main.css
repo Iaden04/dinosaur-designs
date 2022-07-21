@@ -1,7 +1,5 @@
+
 html {
-  background-color: #f2f1ed;
-  font-family: Georgia, serif;
-  line-height: 1.5;
   box-sizing: border-box;
 }
 
@@ -9,41 +7,62 @@ html {
   box-sizing: inherit;
 }
 
-img {
-  width: 100%;
+body {
+  background-color: #FDF6E3;
 }
 
-h1, h2 {
-  color: #5d8432;
+header, footer {
+  font-size: 1.5rem;
+}
+
+nav > ul {
+  font-family: sans-serif;
+}
+
+.logo {
   text-transform: uppercase;
-  font-family: "Patua One", sans-serif;
 }
 
-figcaption {
-  font-size: .8rem;
-  font-style: italic;
-  text-align: center;
+.wrapper {
+  background-color: #EEE8D5;
 }
 
-nav {
-  font-size: 1.125rem;
-  font-weight: bold;
-  font-family: "Patua One", sans-serif;
+#contents, #favs, #facts, #types {
+  color: #93A1A1;
 }
 
-nav ol {
-  list-style-type: none;
+.wrapper > .dfn {
+  background-color: #B58900;
 }
 
-nav a {
-  color: #793284;
-  text-decoration: none;
+.wrapper > .dfn > strong {
+  color: #fff;
 }
 
-nav a:hover {
-  color: #b42885;
+a:not(.no-highlight) {
+  background-color: #719E07;
 }
 
-.intro {
-  font-size: 1rem;
+[rel=“external”] {
+  background-color: #2694D8;
+}
+
+ol > li:first-child {
+  color: #719E47;
+}
+
+ol > li:last-child {
+  color: #2AA198;
+}
+
+.types > li:nth-child(odd) {
+  background-color: #657BA3;
+}
+
+.types > li:nth-child(even) {
+  background-color: #586E75;
+}
+
+.types > li:nth-child(3n) {
+  background-color: #D04B16;
 }
